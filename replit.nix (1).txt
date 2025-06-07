@@ -1,0 +1,30 @@
+{pkgs}: {
+  deps = [
+    pkgs.haskellPackages.meep
+    pkgs.perlPackages.TieRefHash
+    pkgs.emacs27Packages.dired-git
+    pkgs.emacs27Packages.helm-jstack
+    pkgs.rPackages.nontarget
+    pkgs.quattrocento
+    pkgs.luaPackages.luassert
+    pkgs.quicklispPackagesSBCL.uuid
+    pkgs.haskellPackages.yesod-crud
+    pkgs.perlPackages.SmartComments
+    pkgs.rPackages.stlcsb
+    pkgs.linuxPackages_4_9.nvidia_x11
+    pkgs.rPackages.datadigest
+    pkgs.rPackages.MatrixEQTL
+    pkgs.gnomeExtensions.impatience
+    pkgs.plasma5Packages.kolourpaint
+    pkgs.mdevd
+    pkgs.haskellPackages.slugify
+    pkgs.haskellPackages.servant-rawm-client
+    pkgs.rPackages.MPkn
+    pkgs.libtelnet
+    pkgs.python38Packages.iaqualink
+    pkgs.haskellPackages.hpath-filepath
+    pkgs.rPackages.SMUT
+    pkgs.haskellPackages.rivet-autoimporter
+    pkgs.nodePackages_latest.webtorrent-cli
+  ];
+}
